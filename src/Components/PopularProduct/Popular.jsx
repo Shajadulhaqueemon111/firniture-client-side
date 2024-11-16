@@ -9,7 +9,7 @@ const Popular = () => {
   const [popularProducts, setPopularProducts] = useState([]);
 
   useEffect(() => {
-    fetch("/popular.json")
+    fetch("https://server-side-five-azure.vercel.app/popular")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch data");

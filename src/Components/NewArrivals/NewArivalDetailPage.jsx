@@ -7,7 +7,9 @@ const ProductDetails = () => {
 
   useEffect(() => {
     const fetchProduct = async () => {
-      const response = await fetch(`http://localhost:5000/product/${_id}`);
+      const response = await fetch(
+        `https://server-side-five-azure.vercel.app/product/${_id}`
+      );
       const data = await response.json();
       setProduct(data);
     };
@@ -47,6 +49,7 @@ const ProductDetails = () => {
         <p>
           <span className="font-bold">Price:</span> ${price}
         </p>
+
         <button className="btn btn-primary">Add to Cart</button>
       </div>
     </div>

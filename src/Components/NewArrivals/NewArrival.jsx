@@ -6,7 +6,7 @@ const NewArrival = () => {
   const [filter, setFilter] = useState("All");
 
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://server-side-five-azure.vercel.app/product")
       .then((res) => {
         if (!res.ok) {
           throw new Error("");
