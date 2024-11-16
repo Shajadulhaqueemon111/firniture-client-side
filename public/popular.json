@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Luxury Sofa",
+    "title": "Comfortable 3-Seater Sofa",
+    "price": "799",
+    "OnSell": true,
+    "HotSell": false,
+    "Trend": true,
+    "BestSell": true,
+    "image": "https://i.ibb.co.com/VL0sr6S/1-min-1-253x200-1.png",
+    "description": "A comfortable 3-seater sofa perfect for your living room.",
+    "SKU": "Sofa001",
+    "category": "Living Room"
+  },
+  {
+    "id": "2",
+    "name": "Dining Table Set",
+    "title": "6-Seater Wooden Dining Table",
+    "price": "999",
+    "OnSell": true,
+    "HotSell": true,
+    "Trend": false,
+    "BestSell": true,
+    "image": "https://i.ibb.co.com/yBgPLG5/2-4.jpg",
+    "description": "A 6-seater wooden dining table for family gatherings.",
+    "SKU": "Table002",
+    "category": "Dining Room"
+  },
+  {
+    "id": "3",
+    "name": "King Bed Frame",
+    "title": "Solid Wood Bed Frame",
+    "price": "1199",
+    "OnSell": false,
+    "HotSell": true,
+    "Trend": true,
+    "BestSell": false,
+    "image": "https://i.ibb.co.com/6bWcVj5/red-color-chair-1-300x300.png",
+    "description": "A sturdy and elegant solid wood bed frame for your bedroom.",
+    "SKU": "Bed003",
+    "category": "Bedroom"
+  }
+]

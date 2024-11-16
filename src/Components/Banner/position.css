@@ -1,0 +1,37 @@
+.swiper-slide-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiper-slide-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain image proportions */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust alignment perfectly */
+  color: white; /* Text color */
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.overlay-text h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.overlay-text p {
+  font-size: 1.2rem;
+  margin: 5px 0 0;
+}
